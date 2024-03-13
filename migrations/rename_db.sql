@@ -1,0 +1,6 @@
+use master;
+go
+
+ALTER DATABASE [Cold Storage] SET SINGLE_USER WITH ROLLBACK IMMEDIATE    
+ALTER DATABASE [Cold Storage] MODIFY NAME = [Cold_Storage]
+ALTER DATABASE [Cold_Storage] SET MULTI_USER
